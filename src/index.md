@@ -1,5 +1,5 @@
 ---
-title: Tyler Tomaseski's Portfolio
+title: Noteworth Projects I've Worked On
 layout: home.njk
 ---
 
