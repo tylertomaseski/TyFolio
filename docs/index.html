@@ -6,11 +6,18 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
         <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
         <meta
-        name="viewport" content="width=device-width"/> <!-- Favicon and title -->
+        name="viewport" content="width=device-width"/>
+        <!-- Favicon and title -->
         <link rel="icon" href="path/to/fav.png">
-        <title>Noteworth Projects I&#39;ve Worked On</title>
+        <title>Noteworthy Projects I&#39;ve Worked On</title>
         <link rel="stylesheet" href="css/style.css">
         <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet"/>
+
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap" rel="stylesheet">
+
     </head>
     <body
         class="with-custom-webkit-scrollbars with-custom-css-scrollbars"
@@ -19,18 +26,33 @@
         <!-- Modals go here -->
         <!-- Reference: https://www.gethalfmoon.com/docs/modal -->
         <!-- Page wrapper start -->
-            <div class="page-wrapper with-navbar"> <!-- Sticky alerts (toasts), empty container -->
-            <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts --><div class="sticky-alerts"> </div>
+        <div class="page-wrapper with-navbar">
+            <!-- Sticky alerts (toasts), empty container -->
+            <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts -->
+            <div class="sticky-alerts"></div>
             <!-- Navbar start -->
             <nav
                 class="navbar">
                 <!-- Reference: https://www.gethalfmoon.com/docs/navbar -->
+
+                <span class="navbar-brand ml-5">
+                    <!-- ml-5 = margin-left: 0.5rem (5px) -->
+                <header>Tyler Tomaseski</header>
+                    <!-- text-monospace = font-family shifted to monospace --></span>
+
+                <span class="navbar-content">
+                    <!-- ml-5 = margin-left: 0.5rem (5px) -->
+                    Game Development and Interactive Media Portfolio
+                    <!-- text-monospace = font-family shifted to monospace --></span>
+                <!-- Navbar nav -->
+                <ul class="navbar-nav ml-auto">
+                    <span class="badge badge text-monospace float-right">Updated 12/30</span>
+                </ul>
                 
-                Tyler Tomaseski's Portfolio
+
             </nav>
             <!-- Navbar end -->
             <!-- Content wrapper start -->
-
 
             <div
                 class="content-wrapper">
@@ -43,142 +65,139 @@
 
 <div class="container-lg">
 
-<div class="content">
-  <h1 id="page-title">Noteworth Projects I&#39;ve Worked On</h1>
-</div>
+  <div class="content">
+    <h1 id="page-title">Noteworthy Projects I&#39;ve Worked On</h1>
+  </div>
 
+  <div class="row justify-content-center">
 
-<div class="row justify-content-center">
+    
+      <div class="col-sm-6 col-md-5 col-lg-4">
+        <div class="card p-0">
+          <!-- p-0 = padding: 0 -->
+          <img src=./img/header_swrc.jpg class="img-fluid rounded-top" alt="...">
+          <!-- rounded-top = rounded corners on the top -->
+          <!-- Nested content container inside card -->
+          <div class="content">
+            <h2 class="content-title">
+              Star Wars: Republic Commando
+            </h2>
+            <p class="text-muted">
+              Some summary 1
+            </p>
+            <div class="text-right">
+              <!-- text-right = text-align: right -->
+              <a href="/pages/1 swrc/" class="btn btn-primary" role="button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-5 col-lg-4">
+        <div class="card p-0">
+          <!-- p-0 = padding: 0 -->
+          <img src=./img/header_doom.jpg class="img-fluid rounded-top" alt="...">
+          <!-- rounded-top = rounded corners on the top -->
+          <!-- Nested content container inside card -->
+          <div class="content">
+            <h2 class="content-title">
+              Doom 1 &amp; 2
+            </h2>
+            <p class="text-muted">
+              Some summary 1
+            </p>
+            <div class="text-right">
+              <!-- text-right = text-align: right -->
+              <a href="/pages/2 doom/" class="btn btn-primary" role="button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-5 col-lg-4">
+        <div class="card p-0">
+          <!-- p-0 = padding: 0 -->
+          <img src=./img/header_ror2.jpg class="img-fluid rounded-top" alt="...">
+          <!-- rounded-top = rounded corners on the top -->
+          <!-- Nested content container inside card -->
+          <div class="content">
+            <h2 class="content-title">
+              Risk of Rain 2
+            </h2>
+            <p class="text-muted">
+              Some summary 1
+            </p>
+            <div class="text-right">
+              <!-- text-right = text-align: right -->
+              <a href="/pages/3 risk of rain/" class="btn btn-primary" role="button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-5 col-lg-4">
+        <div class="card p-0">
+          <!-- p-0 = padding: 0 -->
+          <img src=./img/header_innerspace.jpg class="img-fluid rounded-top" alt="...">
+          <!-- rounded-top = rounded corners on the top -->
+          <!-- Nested content container inside card -->
+          <div class="content">
+            <h2 class="content-title">
+              InnerSpace
+            </h2>
+            <p class="text-muted">
+              InnerSpace launched on PS4, Xbox One, Switch, Windows, Mac, and Linux. For the majority of its development, I was its sole programmer. We ported the game to all platforms in-house.
+            </p>
+            <div class="text-right">
+              <!-- text-right = text-align: right -->
+              <a href="/pages/4 innerspace/" class="btn btn-primary" role="button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-5 col-lg-4">
+        <div class="card p-0">
+          <!-- p-0 = padding: 0 -->
+          <img src=./img/header_eronoctosis.png class="img-fluid rounded-top" alt="...">
+          <!-- rounded-top = rounded corners on the top -->
+          <!-- Nested content container inside card -->
+          <div class="content">
+            <h2 class="content-title">
+              Eronoctosis
+            </h2>
+            <p class="text-muted">
+              Some summary 1
+            </p>
+            <div class="text-right">
+              <!-- text-right = text-align: right -->
+              <a href="/pages/5 eronoctosis/" class="btn btn-primary" role="button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-5 col-lg-4">
+        <div class="card p-0">
+          <!-- p-0 = padding: 0 -->
+          <img src=./img/header_monstertruck.png class="img-fluid rounded-top" alt="...">
+          <!-- rounded-top = rounded corners on the top -->
+          <!-- Nested content container inside card -->
+          <div class="content">
+            <h2 class="content-title">
+              Game Jams
+            </h2>
+            <p class="text-muted">
+              Some summary 1
+            </p>
+            <div class="text-right">
+              <!-- text-right = text-align: right -->
+              <a href="/pages/6 gamejams/" class="btn btn-primary" role="button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-
-<div class="col-sm-6 col-md-5 col-lg-4">
-  <div class="card p-0"> <!-- p-0 = padding: 0 -->
-    <img src=./img/header_swrc.jpg class="img-fluid rounded-top" alt="..."> <!-- rounded-top = rounded corners on the top -->
-    <!-- Nested content container inside card -->
-    <div class="content">
-      <h2 class="content-title">
-        Star Wars: Republic Commando
-      </h2>
-      <p class="text-muted">
-        Some summary 1
-      </p>
-      <div class="text-right"> <!-- text-right = text-align: right -->
-        <a href="/pages/1 swrc/" class="btn">Read more</a>
-      </div>
-    </div>
   </div>
-</div>
-<div class="col-sm-6 col-md-5 col-lg-4">
-  <div class="card p-0"> <!-- p-0 = padding: 0 -->
-    <img src=./img/header_doom.jpg class="img-fluid rounded-top" alt="..."> <!-- rounded-top = rounded corners on the top -->
-    <!-- Nested content container inside card -->
-    <div class="content">
-      <h2 class="content-title">
-        Doom 1 &amp; 2
-      </h2>
-      <p class="text-muted">
-        Some summary 1
-      </p>
-      <div class="text-right"> <!-- text-right = text-align: right -->
-        <a href="/pages/2 doom/" class="btn">Read more</a>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="col-sm-6 col-md-5 col-lg-4">
-  <div class="card p-0"> <!-- p-0 = padding: 0 -->
-    <img src=./img/header_ror2.jpg class="img-fluid rounded-top" alt="..."> <!-- rounded-top = rounded corners on the top -->
-    <!-- Nested content container inside card -->
-    <div class="content">
-      <h2 class="content-title">
-        Risk of Rain 2
-      </h2>
-      <p class="text-muted">
-        Some summary 1
-      </p>
-      <div class="text-right"> <!-- text-right = text-align: right -->
-        <a href="/pages/3 risk of rain/" class="btn">Read more</a>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="col-sm-6 col-md-5 col-lg-4">
-  <div class="card p-0"> <!-- p-0 = padding: 0 -->
-    <img src=./img/header_innerspace.jpg class="img-fluid rounded-top" alt="..."> <!-- rounded-top = rounded corners on the top -->
-    <!-- Nested content container inside card -->
-    <div class="content">
-      <h2 class="content-title">
-        InnerSpace
-      </h2>
-      <p class="text-muted">
-        InnerSpace launched on PS4, Xbox One, Switch, Windows, Mac, and Linux. For the majority of its development, I was its sole programmer. We ported the game to all platforms in-house.
-      </p>
-      <div class="text-right"> <!-- text-right = text-align: right -->
-        <a href="/pages/4 innerspace/" class="btn">Read more</a>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="col-sm-6 col-md-5 col-lg-4">
-  <div class="card p-0"> <!-- p-0 = padding: 0 -->
-    <img src=./img/header_eronoctosis.png class="img-fluid rounded-top" alt="..."> <!-- rounded-top = rounded corners on the top -->
-    <!-- Nested content container inside card -->
-    <div class="content">
-      <h2 class="content-title">
-        Eronoctosis
-      </h2>
-      <p class="text-muted">
-        Some summary 1
-      </p>
-      <div class="text-right"> <!-- text-right = text-align: right -->
-        <a href="/pages/5 eronoctosis/" class="btn">Read more</a>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="col-sm-6 col-md-5 col-lg-4">
-  <div class="card p-0"> <!-- p-0 = padding: 0 -->
-    <img src=./img/header_monstertruck.png class="img-fluid rounded-top" alt="..."> <!-- rounded-top = rounded corners on the top -->
-    <!-- Nested content container inside card -->
-    <div class="content">
-      <h2 class="content-title">
-        Game Jams
-      </h2>
-      <p class="text-muted">
-        Some summary 1
-      </p>
-      <div class="text-right"> <!-- text-right = text-align: right -->
-        <a href="/pages/6 gamejams/" class="btn">Read more</a>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="col-sm-6 col-md-5 col-lg-4">
-  <div class="card p-0"> <!-- p-0 = padding: 0 -->
-    <img src=./img/header_monstertruck.png class="img-fluid rounded-top" alt="..."> <!-- rounded-top = rounded corners on the top -->
-    <!-- Nested content container inside card -->
-    <div class="content">
-      <h2 class="content-title">
-        Game Jams
-      </h2>
-      <p class="text-muted">
-        Some summary 1
-      </p>
-      <div class="text-right"> <!-- text-right = text-align: right -->
-        <a href="/pages/7 about me/" class="btn">Read more</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-</div>
 </div>
             </div>
 
-            <!-- footer -->
-            <div class="content-wrapper">
-                Footer
-            </div>
+            
             <!-- Content wrapper end -->
         </div>
         <!-- Page wrapper end -->

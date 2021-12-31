@@ -6,11 +6,18 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
         <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
         <meta
-        name="viewport" content="width=device-width"/> <!-- Favicon and title -->
+        name="viewport" content="width=device-width"/>
+        <!-- Favicon and title -->
         <link rel="icon" href="path/to/fav.png">
         <title>Eronoctosis</title>
         <link rel="stylesheet" href="css/style.css">
         <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet"/>
+
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap" rel="stylesheet">
+
     </head>
     <body
         class="with-custom-webkit-scrollbars with-custom-css-scrollbars"
@@ -19,18 +26,33 @@
         <!-- Modals go here -->
         <!-- Reference: https://www.gethalfmoon.com/docs/modal -->
         <!-- Page wrapper start -->
-            <div class="page-wrapper with-navbar"> <!-- Sticky alerts (toasts), empty container -->
-            <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts --><div class="sticky-alerts"> </div>
+        <div class="page-wrapper with-navbar">
+            <!-- Sticky alerts (toasts), empty container -->
+            <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts -->
+            <div class="sticky-alerts"></div>
             <!-- Navbar start -->
             <nav
                 class="navbar">
                 <!-- Reference: https://www.gethalfmoon.com/docs/navbar -->
+
+                <span class="navbar-brand ml-5">
+                    <!-- ml-5 = margin-left: 0.5rem (5px) -->
+                <header>Tyler Tomaseski</header>
+                    <!-- text-monospace = font-family shifted to monospace --></span>
+
+                <span class="navbar-content">
+                    <!-- ml-5 = margin-left: 0.5rem (5px) -->
+                    Game Development and Interactive Media Portfolio
+                    <!-- text-monospace = font-family shifted to monospace --></span>
+                <!-- Navbar nav -->
+                <ul class="navbar-nav ml-auto">
+                    <span class="badge badge text-monospace float-right">Updated 12/30</span>
+                </ul>
                 
-                Tyler Tomaseski's Portfolio
+
             </nav>
             <!-- Navbar end -->
             <!-- Content wrapper start -->
-
 
             <div
                 class="content-wrapper">
@@ -47,10 +69,7 @@ This is the first page.</p>
 </footer>
             </div>
 
-            <!-- footer -->
-            <div class="content-wrapper">
-                Footer
-            </div>
+            
             <!-- Content wrapper end -->
         </div>
         <!-- Page wrapper end -->

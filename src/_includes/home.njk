@@ -6,32 +6,34 @@ layout: base.njk
 
 <div class="container-lg">
 
-<div class="content">
-  <h1 id="page-title">{{title}}</h1>
-</div>
-
-
-<div class="row justify-content-center">
-
-{% for page in collections.pages %}
-<div class="col-sm-6 col-md-5 col-lg-4">
-  <div class="card p-0"> <!-- p-0 = padding: 0 -->
-    <img src={{page.data.img}} class="img-fluid rounded-top" alt="..."> <!-- rounded-top = rounded corners on the top -->
-    <!-- Nested content container inside card -->
-    <div class="content">
-      <h2 class="content-title">
-        {{page.data.title}}
-      </h2>
-      <p class="text-muted">
-        {{page.data.summary}}
-      </p>
-      <div class="text-right"> <!-- text-right = text-align: right -->
-        <a href="{{page.url}}" class="btn">Read more</a>
-      </div>
-    </div>
+  <div class="content">
+    <h1 id="page-title">{{title}}</h1>
   </div>
-</div>
-{%- endfor %}
 
-</div>
+  <div class="row justify-content-center">
+
+    {% for page in collections.pages %}
+      <div class="col-sm-6 col-md-5 col-lg-4">
+        <div class="card p-0">
+          <!-- p-0 = padding: 0 -->
+          <img src={{page.data.img}} class="img-fluid rounded-top" alt="...">
+          <!-- rounded-top = rounded corners on the top -->
+          <!-- Nested content container inside card -->
+          <div class="content">
+            <h2 class="content-title">
+              {{page.data.title}}
+            </h2>
+            <p class="text-muted">
+              {{page.data.summary}}
+            </p>
+            <div class="text-right">
+              <!-- text-right = text-align: right -->
+              <a href="{{page.url}}" class="btn btn-primary" role="button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    {%- endfor %}
+
+  </div>
 </div>
