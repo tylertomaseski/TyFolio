@@ -1,16 +1,18 @@
 ---
 layout: base.njk
 ---
-
-{{ content | safe }}
-
 <div class="container-lg">
+  <div class="row justify-content-center">
 
-  <div class="content">
-    <h1 id="page-title">{{title}}</h1>
+    <div class="content">
+      <h1 id="page-title">{{title}}</h1>
+    </div>
+
   </div>
 
   <div class="row justify-content-center">
+
+    {{ content | safe }}
 
     {% for page in collections.pages %}
       <div class="col-sm-6 col-md-5 col-lg-4">

@@ -10,14 +10,14 @@
         <!-- Favicon and title -->
         <link rel="icon" href="path/to/fav.png">
         <title>{{title}}</title>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="/css/style.css">
         <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet"/>
 
         {# FONTS #}
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap" rel="stylesheet">
-
+        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     </head>
     <body
         class="with-custom-webkit-scrollbars with-custom-css-scrollbars"
@@ -35,23 +35,19 @@
                 class="navbar">
                 <!-- Reference: https://www.gethalfmoon.com/docs/navbar -->
 
-                <span class="navbar-brand ml-5">
+                <span class="navbar-content ml-10 mr-auto ">
                     <!-- ml-5 = margin-left: 0.5rem (5px) -->
-                <header>Tyler Tomaseski</header>
-                    <!-- text-monospace = font-family shifted to monospace --></span>
+                    <header class="">Tyler Tomaseski's gamedev portfolio</header>
+                    <!-- text-monospace = font-family shifted to monospace -->
+                </span>
 
-                <span class="navbar-content">
-                    <!-- ml-5 = margin-left: 0.5rem (5px) -->
-                    Game Development and Interactive Media Portfolio
-                    <!-- text-monospace = font-family shifted to monospace --></span>
                 <!-- Navbar nav -->
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto mr-10">
                     <span class="badge badge text-monospace float-right">Updated 12/30</span>
                 </ul>
-                
-
             </nav>
             <!-- Navbar end -->
+
             <!-- Content wrapper start -->
 
             <div
