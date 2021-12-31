@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
     <head>
         <!-- Meta tags -->
         <meta charset="utf-8"/>
@@ -11,42 +11,23 @@
         <link rel="icon" href="path/to/fav.png">
         <title>{{title}}</title>
         <link rel="stylesheet" href="/css/style.css">
-        <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet"/>
+        <link href="/css/pico.min.css" rel="stylesheet"/>
 
         {# FONTS #}
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     </head>
-    <body
-        class="with-custom-webkit-scrollbars with-custom-css-scrollbars"
-        data-dm-shortcut-enabled="true"
-        data-set-preferred-mode-onload="true">
+    <body>
         <!-- Modals go here -->
         <!-- Reference: https://www.gethalfmoon.com/docs/modal -->
         <!-- Page wrapper start -->
-        <div class="page-wrapper with-navbar">
-            <!-- Sticky alerts (toasts), empty container -->
-            <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts -->
-            <div class="sticky-alerts"></div>
-            <!-- Navbar start -->
-            <nav
-                class="navbar">
-                <!-- Reference: https://www.gethalfmoon.com/docs/navbar -->
+        <nav>
+            <h1>Tyler Tomaseski</h1>
+            <h2>gamedev and interactive media portfolio</h2>
+        </nav>
 
-                <span class="navbar-content ml-10 mr-auto ">
-                    <!-- ml-5 = margin-left: 0.5rem (5px) -->
-                    <header class="">Tyler Tomaseski's gamedev portfolio</header>
-                    <!-- text-monospace = font-family shifted to monospace -->
-                </span>
-
-                <!-- Navbar nav -->
-                <ul class="navbar-nav ml-auto mr-10">
-                    <span class="badge badge text-monospace float-right">Updated 12/30</span>
-                </ul>
-            </nav>
-            <!-- Navbar end -->
+        <main class="container">
 
             <!-- Content wrapper start -->
 
@@ -63,9 +44,9 @@
                 Footer
             </div> #}
             <!-- Content wrapper end -->
-        </div>
+        </container>
         <!-- Page wrapper end -->
         <!-- Halfmoon JS -->
         <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
-    </body>
+    </main>
 </html>

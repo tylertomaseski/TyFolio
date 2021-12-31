@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
     <head>
         <!-- Meta tags -->
         <meta charset="utf-8"/>
@@ -11,42 +11,23 @@
         <link rel="icon" href="path/to/fav.png">
         <title>Noteworthy Projects I&#39;ve Worked On</title>
         <link rel="stylesheet" href="/css/style.css">
-        <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet"/>
+        <link href="/css/pico.min.css" rel="stylesheet"/>
 
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     </head>
-    <body
-        class="with-custom-webkit-scrollbars with-custom-css-scrollbars"
-        data-dm-shortcut-enabled="true"
-        data-set-preferred-mode-onload="true">
+    <body>
         <!-- Modals go here -->
         <!-- Reference: https://www.gethalfmoon.com/docs/modal -->
         <!-- Page wrapper start -->
-        <div class="page-wrapper with-navbar">
-            <!-- Sticky alerts (toasts), empty container -->
-            <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts -->
-            <div class="sticky-alerts"></div>
-            <!-- Navbar start -->
-            <nav
-                class="navbar">
-                <!-- Reference: https://www.gethalfmoon.com/docs/navbar -->
+        <nav>
+            <h1>Tyler Tomaseski</h1>
+            <h2>gamedev and interactive media portfolio</h2>
+        </nav>
 
-                <span class="navbar-content ml-10 mr-auto ">
-                    <!-- ml-5 = margin-left: 0.5rem (5px) -->
-                    <header class="">Tyler Tomaseski's gamedev portfolio</header>
-                    <!-- text-monospace = font-family shifted to monospace -->
-                </span>
-
-                <!-- Navbar nav -->
-                <ul class="navbar-nav ml-auto mr-10">
-                    <span class="badge badge text-monospace float-right">Updated 12/30</span>
-                </ul>
-            </nav>
-            <!-- Navbar end -->
+        <main class="container">
 
             <!-- Content wrapper start -->
 
@@ -55,151 +36,220 @@
                 <!-- Add your page's main content here Examples:
                                     1. https://www.gethalfmoon.com/docs/content-and-cards/#building-a-page
                                     2. https://www.gethalfmoon.com/docs/grid-system/#building-a-dashboard -->
-                <div class="container-lg">
-  <div class="row justify-content-center">
-
-    <div class="content">
-      <h1 id="page-title">Noteworthy Projects I&#39;ve Worked On</h1>
-    </div>
-
-  </div>
-
-  <div class="row justify-content-center">
-
-    <!-- Run with npm start -->
+                <main class="container">
+<!-- ABOUT ME -->
 
 
-    
-      <div class="col-sm-6 col-md-5 col-lg-4">
-        <div class="card p-0">
-          <!-- p-0 = padding: 0 -->
-          <img src=./img/header_swrc.jpg class="img-fluid rounded-top" alt="...">
-          <!-- rounded-top = rounded corners on the top -->
-          <!-- Nested content container inside card -->
-          <div class="content">
-            <h2 class="content-title">
+  <!-- START PROJECTS -->
+  <hgroup>
+    <h1 id="page-title">Noteworthy Shipped Titles</h1>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Project</th>
+          <th scope="col">Client</th>
+          <th scope="col">Employer</th>
+          <th scope="col">Role</th>
+          <th scope="col">Start/End Date</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <!-- Run with npm start -->
+
+        
+          <tr>
+            <th scope="row">
+              
               Star Wars: Republic Commando
-            </h2>
-            <p class="text-muted">
-              Some summary 1
-            </p>
-            <div class="text-right">
-              <!-- text-right = text-align: right -->
-              <a href="/pages/1 swrc/" class="btn btn-primary" role="button">Read More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-5 col-lg-4">
-        <div class="card p-0">
-          <!-- p-0 = padding: 0 -->
-          <img src=./img/header_doom.jpg class="img-fluid rounded-top" alt="...">
-          <!-- rounded-top = rounded corners on the top -->
-          <!-- Nested content container inside card -->
-          <div class="content">
-            <h2 class="content-title">
+            </th>
+            <td>Aspyr Media &amp; LucasArts</td>
+            <td>PolyKnight Games</td>
+            <td>Technical Producer &amp; Lead Developer</td>
+            <td>2020-2021</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              
               Doom 1 &amp; 2
-            </h2>
-            <p class="text-muted">
-              Some summary 1
-            </p>
-            <div class="text-right">
-              <!-- text-right = text-align: right -->
-              <a href="/pages/2 doom/" class="btn btn-primary" role="button">Read More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-5 col-lg-4">
-        <div class="card p-0">
-          <!-- p-0 = padding: 0 -->
-          <img src=./img/header_ror2.jpg class="img-fluid rounded-top" alt="...">
-          <!-- rounded-top = rounded corners on the top -->
-          <!-- Nested content container inside card -->
-          <div class="content">
-            <h2 class="content-title">
+            </th>
+            <td>Nerve &amp; ID Software</td>
+            <td>Freelance</td>
+            <td>Unity Consultant</td>
+            <td>2019-2020</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              
               Risk of Rain 2
-            </h2>
-            <p class="text-muted">
-              Some summary 1
-            </p>
-            <div class="text-right">
-              <!-- text-right = text-align: right -->
-              <a href="/pages/3 risk of rain/" class="btn btn-primary" role="button">Read More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-5 col-lg-4">
-        <div class="card p-0">
-          <!-- p-0 = padding: 0 -->
-          <img src=./img/header_innerspace.jpg class="img-fluid rounded-top" alt="...">
-          <!-- rounded-top = rounded corners on the top -->
-          <!-- Nested content container inside card -->
-          <div class="content">
-            <h2 class="content-title">
+            </th>
+            <td>Gearbox Software &amp; Hopoo Games</td>
+            <td>Dream Toaster Games</td>
+            <td>Unity Consultant</td>
+            <td>2019-2020</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              
               InnerSpace
-            </h2>
-            <p class="text-muted">
-              InnerSpace launched on PS4, Xbox One, Switch, Windows, Mac, and Linux. For the majority of its development, I was its sole programmer. We ported the game to all platforms in-house.
-            </p>
-            <div class="text-right">
-              <!-- text-right = text-align: right -->
-              <a href="/pages/4 innerspace/" class="btn btn-primary" role="button">Read More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-5 col-lg-4">
-        <div class="card p-0">
-          <!-- p-0 = padding: 0 -->
-          <img src=./img/header_eronoctosis.png class="img-fluid rounded-top" alt="...">
-          <!-- rounded-top = rounded corners on the top -->
-          <!-- Nested content container inside card -->
-          <div class="content">
-            <h2 class="content-title">
+            </th>
+            <td>-</td>
+            <td>PolyKnight Games</td>
+            <td>Director &amp; Lead Developer</td>
+            <td>2014-2018</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              
               Eronoctosis
-            </h2>
-            <p class="text-muted">
-              Some summary 1
-            </p>
-            <div class="text-right">
-              <!-- text-right = text-align: right -->
-              <a href="/pages/5 eronoctosis/" class="btn btn-primary" role="button">Read More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-5 col-lg-4">
-        <div class="card p-0">
-          <!-- p-0 = padding: 0 -->
-          <img src=./img/header_monstertruck.png class="img-fluid rounded-top" alt="...">
-          <!-- rounded-top = rounded corners on the top -->
-          <!-- Nested content container inside card -->
-          <div class="content">
-            <h2 class="content-title">
+            </th>
+            <td>-</td>
+            <td>Dream Toaster Games</td>
+            <td>Director &amp; Lead Developer</td>
+            <td>2021</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              
               Game Jams
-            </h2>
-            <p class="text-muted">
-              Some summary 1
-            </p>
-            <div class="text-right">
-              <!-- text-right = text-align: right -->
-              <a href="/pages/6 gamejams/" class="btn btn-primary" role="button">Read More</a>
-            </div>
-          </div>
-        </div>
-      </div>
+            </th>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+      </tbody>
+    </table>
+  </hgroup>
+  <!-- END PROJECTS -->
 
-  </div>
-</div>
+  <!-- EMPLOYMENT HISTORY -->
+  <hgroup>
+    <h1 id="page-title">Employment</h1>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Years</th>
+          <th scope="col">Employer</th>
+          <th scope="col">Titles</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">
+              2021-Ongoing
+          </th>
+          <td>Dream Toaster Games</td>
+          <td>Co-Founder, Director, Lead-Developer, Technical Producer</td>
+        </tr>
+        <tr>
+          <th scope="row">
+              2020
+          </th>
+          <td>DragonGlitch Games</td>
+          <td>Principal Unity Consultant</td>
+        </tr>
+        <tr>
+          <th scope="row">
+              2019-2020
+          </th>
+          <td>Nerve Software</td>
+          <td>Unity Consultant</td>
+        </tr>
+        <tr>
+          <th scope="row">
+              2019
+          </th>
+          <td>Kalkomey</td>
+          <td>Sr. Unity Developer</td>
+        </tr>
+        <tr>
+          <th scope="row">
+              2014-2019, 2019-2021
+          </th>
+          <td>PolyKnight Games</td>
+          <td>Co-Founder, Director, Lead-Developer, Technical Producer</td>
+        </tr>
+      </tbody>
+    </table>
+  </hgroup>
+  <!-- END EMPLOYMENT HISTORY -->
+
+  
+    <article>
+      <header>
+        <img src=./img/header_swrc.jpg class="img-fluid rounded-top" alt="...">
+      </header>
+      <body>
+        <p>
+          <a href="/pages/2 swrc/" data-tooltip="Click to learn about my involvement">Star Wars: Republic Commando</a>
+        </p>
+        <p>Some summary 1</p>
+      </body>
+    </article>
+    <article>
+      <header>
+        <img src=./img/header_doom.jpg class="img-fluid rounded-top" alt="...">
+      </header>
+      <body>
+        <p>
+          <a href="/pages/3 doom/" data-tooltip="Click to learn about my involvement">Doom 1 &amp; 2</a>
+        </p>
+        <p>Some summary 1</p>
+      </body>
+    </article>
+    <article>
+      <header>
+        <img src=./img/header_ror2.jpg class="img-fluid rounded-top" alt="...">
+      </header>
+      <body>
+        <p>
+          <a href="/pages/0 risk of rain/" data-tooltip="Click to learn about my involvement">Risk of Rain 2</a>
+        </p>
+        <p>Some summary 1</p>
+      </body>
+    </article>
+    <article>
+      <header>
+        <img src=./img/header_innerspace.jpg class="img-fluid rounded-top" alt="...">
+      </header>
+      <body>
+        <p>
+          <a href="/pages/5 innerspace/" data-tooltip="Click to learn about my involvement">InnerSpace</a>
+        </p>
+        <p>InnerSpace launched on PS4, Xbox One, Switch, Windows, Mac, and Linux. For the majority of its development, I was its sole programmer. We ported the game to all platforms in-house.</p>
+      </body>
+    </article>
+    <article>
+      <header>
+        <img src=./img/header_eronoctosis.png class="img-fluid rounded-top" alt="...">
+      </header>
+      <body>
+        <p>
+          <a href="/pages/1 eronoctosis/" data-tooltip="Click to learn about my involvement">Eronoctosis</a>
+        </p>
+        <p>Some summary 1</p>
+      </body>
+    </article>
+    <article>
+      <header>
+        <img src=./img/header_monstertruck.png class="img-fluid rounded-top" alt="...">
+      </header>
+      <body>
+        <p>
+          <a href="/pages/6 gamejams/" data-tooltip="Click to learn about my involvement">Game Jams</a>
+        </p>
+        <p>Some summary 1</p>
+      </body>
+    </article>
+</main>
             </div>
 
             
             <!-- Content wrapper end -->
-        </div>
+        </container>
         <!-- Page wrapper end -->
         <!-- Halfmoon JS -->
         <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
-    </body>
+    </main>
 </html>
