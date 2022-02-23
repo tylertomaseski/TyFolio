@@ -12,7 +12,7 @@ const config = {
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
-    favicon: 'img/favicon.ico',
+    favicon: 'img/favicon.png',
     organizationName: 'Tyler Tomaseski', // Usually your GitHub org/user name.
     projectName: 'TyFolio', // Usually your repo name.
 
@@ -62,19 +62,18 @@ const config = {
             navbar: {
                 title: 'Tyler Tomaseski\'s Portfolio',
                 logo: {
-                    alt: 'My Site Logo',
-                    src: 'img/logo.svg',
+                    alt: 'TyFolio Logo',
+                    src: 'img/logo.png',
                     href: '/docs/about_me',
                 },
                 items: [{
-                        type: 'doc',
                         to: '/docs/portfolio',
                         docId: 'intro',
                         position: 'left',
                         label: 'Portfolio',
                     },
                     { to: '/docs/resume', label: 'Resume', position: 'left' },
-                    { to: '/contact_me', label: 'Contact Me', position: 'left' },
+                    { to: '/docs/contact_me', label: 'Contact Me', position: 'left' },
                     {
                         href: 'https://github.com/tylertomaseski',
                         label: 'My GitHub',
