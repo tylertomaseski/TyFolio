@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'My Site',
-    tagline: 'Dinosaurs are cool',
-    url: 'https://your-docusaurus-test-site.com',
+    title: 'Tyler Tomaseski\'s Portfolio',
+    tagline: 'Senior Engineer & Producer. Gameplay & Platform Porting.',
+    url: 'https://tyfolio.com',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -60,27 +60,24 @@ const config = {
             },
             /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
             navbar: {
-                title: 'My Site',
+                title: 'Tyler Tomaseski\'s Portfolio',
                 logo: {
                     alt: 'My Site Logo',
                     src: 'img/logo.svg',
+                    href: '/docs/about_me',
                 },
                 items: [{
                         type: 'doc',
+                        to: '/docs/portfolio',
                         docId: 'intro',
                         position: 'left',
                         label: 'Portfolio',
                     },
-                    { to: '/blog', label: 'Project Writeups', position: 'left' },
-                    {
-                        href: 'https://github.com/facebook/docusaurus',
-                        label: 'GitHub',
-                        position: 'right',
-                    },
+                    { to: '/docs/resume', label: 'Resume', position: 'left' },
                     { to: '/contact_me', label: 'Contact Me', position: 'left' },
                     {
-                        href: 'https://github.com/facebook/docusaurus',
-                        label: 'GitHub',
+                        href: 'https://github.com/tylertomaseski',
+                        label: 'My GitHub',
                         position: 'right',
                     },
                 ],
