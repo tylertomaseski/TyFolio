@@ -1,8 +1,8 @@
 ---
-sidebar_position: -100
+sidebar_position: -10
 ---
 
-# Portfolio
+# Star Wars: Republic Commando
 
 Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
 
