@@ -4,7 +4,7 @@ sidebar_position: -5
 
 # Portfolio
 
-**Unity Consultant and Technical Producer with 8-years of experience.** 
+#### Unity Consultant and Technical Producer with 8-years of experience.
 
 Looking for work on original titles or console-porting.
 

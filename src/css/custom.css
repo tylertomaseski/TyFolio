@@ -71,6 +71,12 @@ h2 {
     font-style: normal;
 }
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
 h3,
 .menu__link,
 .navbar__item {

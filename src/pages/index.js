@@ -8,7 +8,7 @@ import HomepageFeatures from '../components/HomepageFeatures';
 
 function HomepageHeader() {
 
-    window.location.href = 'docs/about_me';
+    window.location.href = 'docs/portfolio';
 
     const { siteConfig } = useDocusaurusContext();
     return ( <
@@ -21,13 +21,13 @@ function HomepageHeader() {
         div className = { styles.buttons } >
         <
         Link className = "button button--secondary button--lg"
-        to = "/docs/about_me" >
+        to = "/docs/portfolio" >
         Learn about me!
         <
-        /Link> <
-        /div> <
-        /div> <
-        /header>
+        /Link> < /
+        div > <
+        /div> < /
+        header >
     );
 }
 
@@ -43,7 +43,7 @@ export default function Home() {
         <
         HomepageFeatures / >
         <
-        /main> <
-        /Layout>
+        /main> < /
+        Layout >
     );
 }

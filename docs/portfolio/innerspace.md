@@ -4,9 +4,9 @@ sidebar_position: -100
 
 # InnerSpace
 
-|Studio|Role|Dates|
-|----|----|----|
-|PolyKnight Games|Director & Lead Engineer|2016-2019|
+|Studio|Role|Engine|Dates|
+|----|----|----|----|
+|PolyKnight Games|Director & Lead Engineer|Unity 3D|2016-2019|
 
 |![InnerSpace Screenshot](/img/projects/innerspace/is1.jpg)|![InnerSpace Screenshot](/img/projects/innerspace/is7.jpg)|
 | ----------- | ----------- |

@@ -3,9 +3,9 @@ sidebar_position: -10
 ---
 
 # Star Wars: Republic Commando
-|Studio|Role|Dates|
-|----|----|----|
-|Aspyr|Technical Producer|2020-2021|
+|Studio|Role|Engine|Dates|
+|----|----|----|----|
+|Aspyr|Technical Producer|Unreal Engine 2|2020-2021|
 
 ![Star Wars: Republic Commanod](/img/projects/swrc/hero.jpg)
 ## About Game

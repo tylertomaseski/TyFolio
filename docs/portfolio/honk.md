@@ -3,29 +3,27 @@ sidebar_position: -5
 ---
 
 # HONK: V-Tuber Lipsync Suite
+Studio|Role|Engine|Dates|
+|----|----|----|----|
+|Dream Toaster|Solo-Dev|Unity 3D|2021|
 
-Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
+|![Honk VTuber Suite Screenshot](/img/projects/honk/honk1.gif)|![Honk VTuber Suite Screenshot](/img/projects/honk/honk2.gif)|![Honk VTuber Suite Screenshot](/img/projects/honk/honk3.gif)|
+|-|-|-|
 
-It builds your site as simple **static HTML, JavaScript and CSS files**.
+## About Game
 
-## Build your site
+>HONK is an all-in-one VTuber creation and animation suite. It uses your mic for lip-sync. Honk uses image-swapping instead of rigging. To animate your character, you just redraw you character's mouth and it swaps between the images based on what you say through your mic!
 
-Build your site **for production**:
+[Learn more here.](https://dreamtoaster.itch.io/honk)
 
-```bash
-npm run build
-```
+## My Role
 
-The static files are generated in the `build` folder.
+* Sole-Developer
 
-## Deploy your site
+I wanted to bring a character of mine, Grombit, to life. But the available character animation and lipsync tools were either overly complicated or overly simple. So, I made my own! I developed HONK between contracts over a couple months and released it on Itch.io under Dream Toaster Games.
 
-Test your production build locally:
+## Lessons Learned
 
-```bash
-npm run serve
-```
-
-The `build` folder is now served at `http://localhost:3000/`.
-
-You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).
+* Product management
+* Running community support and rapid releases
+* Developing user-facing tools for custom content

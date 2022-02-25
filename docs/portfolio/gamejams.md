@@ -4,4 +4,4 @@ sidebar_position: 100
 
 # Game Jams
 
-Here are some of my favorite game-jams.
+I've done a lot! 16 to-date. Here's a few of my favorites.
