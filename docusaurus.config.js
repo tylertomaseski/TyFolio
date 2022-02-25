@@ -13,8 +13,9 @@ const config = {
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.png',
-    organizationName: 'Tyler Tomaseski', // Usually your GitHub org/user name.
-    projectName: 'TyFolio', // Usually your repo name.
+    organizationName: 'tylertomaseski', // Usually your GitHub org/user name.
+    projectName: 'tylertomaseski.github.io/TyFolio/', // Usually your repo name.
+    trailingSlash: true,
 
 
     presets: [
