@@ -13,8 +13,9 @@ const config = {
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.png',
-    organizationName: 'Tyler Tomaseski', // Usually your GitHub org/user name.
-    projectName: 'TyFolio', // Usually your repo name.
+    organizationName: 'tylertomaseski', // Usually your GitHub org/user name.
+    projectName: 'tylertomaseski.github.io/TyFolio/', // Usually your repo name.
+    trailingSlash: true,
 
 
     presets: [
@@ -23,14 +24,11 @@ const config = {
             /** @type {import('@docusaurus/preset-classic').Options} */
             ({
                 docs: {
+                    routeBasePath: '/',
                     sidebarPath: require.resolve('./sidebars.js'),
-                    // Please change this to your repo.
-                    // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                 },
                 blog: {
                     showReadingTime: true,
-                    // Please change this to your repo.
-                    // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
@@ -64,16 +62,16 @@ const config = {
                 logo: {
                     alt: 'TyFolio Logo',
                     src: 'img/logo.png',
-                    href: '/docs/portfolio',
+                    href: '/',
                 },
                 items: [{
-                        to: '/docs/portfolio',
+                        to: '/',
                         docId: 'intro',
                         position: 'left',
                         label: 'Portfolio',
                     },
-                    { to: '/docs/resume', label: 'Resume', position: 'left' },
-                    { to: '/docs/contact_me', label: 'Contact Me', position: 'left' },
+                    { to: '/resume', label: 'Resume', position: 'left' },
+                    { to: '/contact_me', label: 'Contact Me', position: 'left' },
                     {
                         href: 'https://github.com/tylertomaseski',
                         label: 'My GitHub',
