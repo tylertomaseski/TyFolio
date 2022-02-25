@@ -3,29 +3,22 @@ sidebar_position: -10
 ---
 
 # Star Wars: Republic Commando
+|Studio|Role|Dates|
+|----|----|----|
+|Aspyr|Technical Producer|2020-2021|
 
-Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
+![Star Wars: Republic Commanod](/img/projects/swrc/hero.jpg)
+## About Game
 
-It builds your site as simple **static HTML, JavaScript and CSS files**.
+>Star Wars: Republic Commando is a tactical first-person shooter video game developed and published by LucasArts. It was released for the Xbox and Microsoft Windows in March 2005.
 
-## Build your site
+The game was re-released in 2021 by Aspyr for Switch and PS4. This is the portion I helped steer.
 
-Build your site **for production**:
+## My Role
 
-```bash
-npm run build
-```
+* Technical Producer
+* Engineer
 
-The static files are generated in the `build` folder.
+I put together a pitch, budget, team, and then managed the project to completion as technical producer. The port was for Aspyr and executed and delivered by PolyKnight Games.
 
-## Deploy your site
-
-Test your production build locally:
-
-```bash
-npm run serve
-```
-
-The `build` folder is now served at `http://localhost:3000/`.
-
-You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).
+I was the lead on the port-team from start to finish.

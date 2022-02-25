@@ -64,7 +64,7 @@ const config = {
                 logo: {
                     alt: 'TyFolio Logo',
                     src: 'img/logo.png',
-                    href: '/docs/about_me',
+                    href: '/docs/portfolio',
                 },
                 items: [{
                         to: '/docs/portfolio',
