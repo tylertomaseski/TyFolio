@@ -12,12 +12,12 @@ Looking for work on original titles or console-porting.
 ## Shipped Titles
 | Project     | Title | Company | Timeline |
 | ----------- | ----------- | ----------- | ----------- |
-| HONK: V-Tuber Lipsync Suite   | Sole-Developer        | Dream Toaster | 2021-2022 |
-| Eronoctosis   | Technical Producer & Engineer        | Dream Toaster | 2021, 2022 |
+| <a href="./portfolio/honk/">HONK: V-Tuber Lipsync Suite</a>   | Sole-Developer        | Dream Toaster | 2021-2022 |
+| <a href="./portfolio/eronoctosis/">Eronoctosis</a>   | Technical Producer & Engineer        | Dream Toaster | 2021, 2022 |
 | Risk of Rain 2 (Port)   | Unity Consultant        | Gearbox | 2021-2022 |
-| Star Wars: Republic Commando (Switch/PS4)   | Technical Producer & Engineer | Aspyr | 2020-2021 | 
+| <a href="./portfolio/swrc/">Star Wars: Republic Commando (Switch/PS4)</a>   | Technical Producer & Engineer | Aspyr | 2020-2021 | 
 | Doom & Doom 2 (PS4/XB1/Switch/Mobile))   | Unity Consultant        | Nerve | 2019-2020 |
-| InnerSpace      | Lead Engineer & Director       | PolyKnight | 2016-2019 |
+| <a href="./portfolio/innerspace/">InnerSpace</a>      | Lead Engineer & Director       | PolyKnight | 2016-2019 |
 | 18 Game-Jams   | Various        | Various | 2015-2021 |
 
 # About Me
