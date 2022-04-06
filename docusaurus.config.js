@@ -8,14 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
     title: 'Tyler Tomaseski\'s Portfolio',
     tagline: 'Senior Engineer & Producer. Gameplay & Platform Porting.',
-    url: 'https://tyfolio.com',
-    baseUrl: '/',
+    url: 'https://tylertomaseski.github.io',
+    baseUrl: '/TyFolio/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.png',
     organizationName: 'tylertomaseski', // Usually your GitHub org/user name.
-    projectName: 'tylertomaseski.github.io/TyFolio/', // Usually your repo name.
-    trailingSlash: true,
+    projectName: 'TyFolio', // Usually your repo name.
 
 
     presets: [

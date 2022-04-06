@@ -1,3 +1,5 @@
 command to start:
 npx docusaurus start
 
+to deploy:
+GIT_USER=tylertomaseski yarn deploy
