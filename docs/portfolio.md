@@ -34,7 +34,7 @@ Outside of gamedev? I love building keyboards, perusing art books, and volunteer
 
 ## About Me Professionally
 
-I'm first and formost a problem solver and conflict resolver. I'm capable of slotting in as an engineer or putting together teams and bids for projects. Leadership is something I value and something I hone. I've most recently been credited as ***Unity Consultant*** and ***Technical Producer***. I work under the Dream Toaster Games LLC as a freelancer.
+I'm first and foremost a problem solver and conflict resolver. I'm capable of slotting in as an engineer or putting together teams and bids for projects. Leadership is something I value and something I hone. I've most recently been credited as ***Unity Consultant*** and ***Technical Producer***. I work under the Dream Toaster Games LLC as a freelancer.
 
 **Need a Unity Consultant?** *I'm your guy.*
 
