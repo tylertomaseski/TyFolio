@@ -4,6 +4,6 @@ sidebar_position: 0
 
 # Resume
 
-Here's my... [out of date resume from 2019](https://docs.google.com/document/d/1krS580XFzJaa7lDEA0EDVgjwkGqWfcjZUNfDD2aRIjY/edit?usp=sharing).
+[Here's my resume!](https://drive.google.com/file/d/1sVCNUuAw2yNrFw3BVZ53edPUzr7sNtry/view?usp=sharing). You can also see it below.
 
-<iframe width="624" height="1800" src="https://docs.google.com/document/d/e/2PACX-1vTTNKkp-FeqaO6KxPQWdA0c-nAgezZ_NTMemwBwMEnUI8iZfKcTil_tXa051UGRaMCh-_IChtWuKuCF/pub?embedded=true"></iframe>
+<iframe src="https://drive.google.com/file/d/1sVCNUuAw2yNrFw3BVZ53edPUzr7sNtry/preview" width="640" height="830" allow="autoplay"></iframe>
