@@ -3,6 +3,9 @@ sidebar_position: 100
 ---
 
 # Game Jams
+
+I've made a LOT of game jams! Here are 5 of my favorite game jams that did not turn into larger projects.
+
 |Thumbnail|Itch.io Link|
 |-|-|
 |![Jam Thumb](/img/jam/astrorat.png)|[Astro Rat](https://godjammit.itch.io/astrorat)|

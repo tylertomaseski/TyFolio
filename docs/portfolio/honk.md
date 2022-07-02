@@ -24,6 +24,6 @@ I wanted to bring a character of mine, Grombit, to life. But the available chara
 
 ## Lessons Learned
 
-* Product management
+* Product management for a self-published tool
 * Running community support and rapid releases
 * Developing user-facing tools for custom content

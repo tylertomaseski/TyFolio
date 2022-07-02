@@ -26,9 +26,10 @@ Eronoctosis was born from the depths of our collective subconscious in late spri
 * Technical Producer
 * Designer
 
-For Eronoctosis I designed the core concept, developed the character controller, multiplayer code, and almost anything that isn't the AI.
+For Eronoctosis I designed the core concept, developed the character controller, multiplayer code, and almost anything that isn't the AI. **I coordinated the team and our tasks through the original project, its steam release, and the addition of the Devotion DLC.**
 
-## Lessons Learned
+### Lessons Learned
 
+* Project management from conception to release without a publisher
 * Multiplayer Gameplay Code
 * Pipelines for efficient indie content generation

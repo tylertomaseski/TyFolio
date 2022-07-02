@@ -5,9 +5,11 @@ slug: /
 
 # Portfolio
 
-#### Unity Consultant and Technical Producer with 8-years of experience.
+#### Unity Consultant and Technical Producer with 8-years of work experience. 
 
-Looking for work on original titles or console-porting.
+I'm looking for work on original titles or console-porting. As a team-lead, technical-producer, or unity-consultant.
+
+I am based out of Dallas TX and am willing to visit the office, but am exclusively looking for remote work.
 
 ## Shipped Titles
 | Project     | Title | Company | Timeline |
@@ -30,13 +32,15 @@ I'm an organizer for Society of Play, a 501(c) Non-Profit gamedev community. Com
 
 Gamedev encompasses my career and most of my hobbies. Be it Society of Play, GameJams, or side-projects, I find myself doing GameDev a lot on my free-time. As for games I play I'm a huge fan of Dark Fantasy, quirky PS1 era games, hidden-role games, and anything exploration forward.
 
-Outside of gamedev? I love building keyboards, perusing art books, and volunteering at a local cat shelter.
+Outside of gamedev? I love building keyboards, perusing art books, volunteering for local causes, and volunteering at a local cat shelter.
 
 ## About Me Professionally
 
 I'm first and foremost a problem solver and conflict resolver. I'm capable of slotting in as an engineer or putting together teams and bids for projects. Leadership is something I value and something I hone. I've most recently been credited as ***Unity Consultant*** and ***Technical Producer***. I work under the Dream Toaster Games LLC as a freelancer.
 
 **Need a Unity Consultant?** *I'm your guy.*
+
+**Need a Producer with insight into how the sausage is made?** *I'm your guy.*
 
 **Need someone to lead a project?** *I'm your guy.*
 
