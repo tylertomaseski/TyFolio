@@ -5,23 +5,23 @@ slug: /
 
 # Portfolio
 
-#### Unity Consultant and Technical Producer with 8-years of work experience. 
+#### Unity Consultant and Technical Producer with 10-years of work experience. 
 
-I'm looking for work on original titles or console-porting. As a team-lead, technical-producer, or unity-consultant.
+I lead a strike team of interdiscipline engineers with at Dream Toaster Games.
 
-I am based out of Dallas TX and am willing to visit the office, but am exclusively looking for remote work.
+If you need advice on a Unity Project or co-development, reach out!
 
 ## Shipped Titles
 | Project     | Title | Company | Timeline |
 | ----------- | ----------- | ----------- | ----------- |
 | <a href="./portfolio/honk/">HONK: V-Tuber Lipsync Suite</a>   | Sole-Developer        | Dream Toaster | 2021-2022 |
 | <a href="./portfolio/eronoctosis/">Eronoctosis</a>   | Technical Producer & Engineer        | Dream Toaster | 2021, 2022 |
-| Risk of Rain 2 (Port)   | Unity Consultant        | Gearbox | 2021-2022 |
+| Risk of Rain 2   | Lead Unity Consultant        | Gearbox | 2021-Ongoing |
 | <a href="./portfolio/swrc/">Star Wars: Republic Commando (Switch/PS4)</a>   | Technical Producer & Engineer | Aspyr | 2020-2021 | 
 | Doom & Doom 2 (PS4/XB1/Switch/Mobile))   | Unity Consultant        | Nerve | 2019-2020 |
 | <a href="./portfolio/innerspace/">InnerSpace</a>      | Lead Engineer & Director       | PolyKnight | 2016-2019 |
 | 18 Game-Jams   | Various        | Various | 2015-2021 |
-|<a href="https://unityfieldguide.com/">Unity Performance Field Guide</a>|Creator & Curator|Dream Toaster|2022-Ongoing|
+|<a href="https://tylertomaseski.github.io/Unity-Performance-Field-Guide/">Unity Performance Field Guide</a>|Creator & Curator|Dream Toaster|2022-Ongoing|
 
 <br />
 

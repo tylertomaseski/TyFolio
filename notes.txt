@@ -1,5 +1,11 @@
+setup:
+install nodejs
+npm install -g yarn
+npm install
+npm run start
+
 command to start:
 npx docusaurus start
 
-to deploy:
+to deploy (gitbash):
 GIT_USER=tylertomaseski yarn deploy
