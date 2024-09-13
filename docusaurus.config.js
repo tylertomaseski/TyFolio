@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
     title: 'Tyler Tomaseski\'s Portfolio',
     tagline: 'Senior Engineer & Producer. Gameplay & Platform Porting.',
-    url: 'https://tylertomaseski.github.io',
+    url: 'https://tyfolio.com',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
