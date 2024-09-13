@@ -9,7 +9,7 @@ const config = {
     title: 'Tyler Tomaseski\'s Portfolio',
     tagline: 'Senior Engineer & Producer. Gameplay & Platform Porting.',
     url: 'https://tylertomaseski.github.io',
-    baseUrl: '/',
+    baseUrl: '/TyFolio/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.png',
